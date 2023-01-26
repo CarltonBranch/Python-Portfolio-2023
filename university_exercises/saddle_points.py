@@ -29,8 +29,8 @@ def process_row_max(row, column):
 
 
 def process_column_min(col, position):
-    """Reads a logical row of vertical data and returns the minimum value and the coordinates of
-    any duplicates in the row
+    """Reads a logical row of vertical data and returns the minimum value
+    and the coordinates of any duplicates in the row
 
     Args:
         row (_type_): vertical collection of matrix elements
