@@ -65,7 +65,8 @@ def find_treasure(treasure_map, **kwargs):
     # equals the sum of the cell value digits
 
     if sum_cursor == row + col:
-        return f'The treasure was found at position: ({kwargs["row"]}, {kwargs["col"]})'
+        return f'The treasure was found at position: ({kwargs["row"]}, \
+            {kwargs["col"]})'
 
     # search_count prevents stack overflow by enforcing a maximum number
     # of searches assuming no cycles
